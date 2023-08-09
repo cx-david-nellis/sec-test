@@ -1,0 +1,8 @@
+name: AWS CodeCommit
+
+on:
+  workflow_run:
+    workflows: ["Checkmarx One Scan"]
+    types:
+      - completed
+      

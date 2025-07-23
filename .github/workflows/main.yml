@@ -17,9 +17,9 @@
 
 
 env:
-    CX_PROJECT_NAME: ""                       # The project name in Checkmarx (if empty defaults to repo)
+    CX_PROJECT_NAME: "cx-david-nellis/sec-test"                       # The project name in Checkmarx (if empty defaults to repo)
     CX_ADDITIONAL_PARAMS: ""                  # Optional aditional params to Checkmarx One scan
-    CX_JIRA_PROJECT: ""                       # The project name in JIRA (if empty JIRA tickets are NOT processed)
+    CX_JIRA_PROJECT: "TestProj"                       # The project name in JIRA (if empty JIRA tickets are NOT processed)
 
 
 name: Checkmarx AST Scan
